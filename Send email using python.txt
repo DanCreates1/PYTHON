@@ -1,0 +1,26 @@
+import smtplib
+
+sender = "poyannazarzade@gmail.com"
+reciver = "pouyan.nazarzadeh2@gmail.com"
+password = "akakjalfkfmakm"
+subject = "Python email test"
+body = "I wrote an email! :D"
+
+
+#Header
+message = f"""From: Snooop Dogg {sender}
+To:Nicholas Cage {reciver}
+Subject: {subject}\n
+{body}
+"""
+
+server = smtplib.SMTP("smtp.gmail.com",587)
+server.starttls()
+try:
+ server.login(sender,password)
+ print("Logged in...")
+ server.sendmail(sender, reciver, message)
+ print("Email has been sent")
+
+except smtplib.SMTPAuthenticationError:
+   print("unable to sign in")
