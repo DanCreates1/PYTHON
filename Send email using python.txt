@@ -1,7 +1,8 @@
+#If the code didn't worked trun off your email security
 import smtplib
 
-sender = "poyannazarzade@gmail.com"
-reciver = "pouyan.nazarzadeh2@gmail.com"
+sender = "example1@gmail.com"
+reciver = "example2@gmail.com"
 password = "akakjalfkfmakm"
 subject = "Python email test"
 body = "I wrote an email! :D"
