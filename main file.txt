@@ -1,0 +1,41 @@
+from tkinter import 
+
+food = [pizza,hamburger,hptdog]
+
+def order()
+    if(x.get()==0)
+        print(you ordered pizza!)
+    elif(x.get()==1)
+        print(you ordered hamburger!)
+    elif(x.get()==2)
+        print(you ordered hotdog!)
+    else
+        print(huh)
+
+
+
+window = Tk()
+
+pizzaImage = PhotoImage(file='imagespizza.png')
+humbergur = PhotoImage(file='humbergur.png')
+hotdog = PhotoImage(file='hotdog.png')
+foodImage = [pizzaImage,humbergur,hotdog]
+
+x = IntVar()
+
+for index in range(len(food))
+    radiobutton = Radiobutton(window,
+                              text=food[index],
+                              variable=x,
+                              value=index,
+                              padx=25,
+                              font=(Impact,50),
+                              image= foodImage[index],
+                              compound='left',
+                              indicatoron=0,#it make it like a push button
+                              command=order
+                              )
+
+
+    radiobutton.pack(anchor=W)
+window.mainloop()
