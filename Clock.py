@@ -1,6 +1,7 @@
 from tkinter import *
 from time import *
 
+
 def update():
     time_string = strftime("%I:%M:%S %p")
     time_label.config(text=time_string)
