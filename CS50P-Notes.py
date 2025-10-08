@@ -17,3 +17,6 @@ Var.capitalize()
 Var.title()
 # Same thing but caps the first letter of each word
 
+def function():
+  #Creates a function, def for define 
+
