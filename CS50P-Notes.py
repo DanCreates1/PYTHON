@@ -18,5 +18,10 @@ Var.title()
 # Same thing but caps the first letter of each word
 
 def function():
-  #Creates a function, def for define 
+  #Creates a function, def for define
+  #Has to be indented under 
+
+def Hello(to):
+  print("Hello,", to)
+Hello("david")
 
