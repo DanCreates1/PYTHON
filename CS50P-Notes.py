@@ -23,5 +23,6 @@ def function():
 
 def Hello(to):
   print("Hello,", to)
-Hello("david")
+name = input("what's your name?")
+Hello(name)
 
