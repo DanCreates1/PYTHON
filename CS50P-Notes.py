@@ -26,3 +26,13 @@ def Hello(to):
 name = input("what's your name?")
 Hello(name)
 
+
+
+#symboles
+> #greater
+>= #greater or equal 
+< #less then
+<= #less then or equal
+== #equal
+!= # not equal
+
