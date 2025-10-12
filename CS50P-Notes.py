@@ -36,8 +36,18 @@ Hello(name)
 == #equal
 != # not equal
 
+
+
 if ....:
   ....
 elif ...:
   ...
 #elif means else if
+
+
+
+# you can use or to add another condition 
+if x > y or x <y:
+  print("X is not equal to y")
+else:
+  pritn("x is equal to y")
