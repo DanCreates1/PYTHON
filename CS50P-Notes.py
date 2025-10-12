@@ -36,3 +36,8 @@ Hello(name)
 == #equal
 != # not equal
 
+if ....:
+  ....
+elif ...:
+  ...
+#elif means else if
