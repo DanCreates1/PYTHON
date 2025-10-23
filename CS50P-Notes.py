@@ -51,3 +51,17 @@ if x > y or x <y:
   print("X is not equal to y")
 else:
   pritn("x is equal to y")
+
+
+
+
+#while loops
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+#for loops
+for i in range(3):
+  print("meow")
+range() #range function will give you numbers from the value that you assign to it but it won't go through the value (ex: range(3) = [0,1,2])
