@@ -69,3 +69,11 @@ range() #range function will give you numbers from the value that you assign to 
 
 print("mewo\n" * 3, end="")
 #does the smae thing as the loops above
+
+
+white True:
+  n = int(input("What's n?"))
+  if n > 0:
+    break
+for _ in range(n):
+  print("meow")
